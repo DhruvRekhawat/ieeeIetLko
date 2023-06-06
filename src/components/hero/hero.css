@@ -1,0 +1,27 @@
+.hero{
+    width: 100%;
+    height: 100vh;  
+    background-image: url('./src/assets/cris-baron-AIOojVGUua8-unsplash.jpg');
+    background-position:top;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+}
+.btn:hover{
+    cursor: pointer;
+}
+.hero__header{
+    color: white;
+    text-decoration: none;
+}
+.ieeeLogo{
+    width: 50%;
+}
