@@ -11,7 +11,10 @@
    display: flex;   
 }
 .dropdownMenu{
-    display: absolute;
+    display:block;
+    position: fixed;
+    left: 0;
+    z-index: 2;
     background: #222;
     height: 100vh;
     width: 100vw;
@@ -21,12 +24,16 @@
 .dropdownList{
     display: flex;
     flex-direction: column;
+    position: fixed;
+    left:0;
+    width: 100%;
 }
 .dropdownListElement{
     font-size: 2rem;
     line-height: 2.2rem;
     margin: 1rem;
     padding: 1rem;
+    width: 100%;
 }
 .dropdownListElement:hover{
     background-color: rgb(51, 51, 51);

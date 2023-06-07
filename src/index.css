@@ -60,3 +60,9 @@ h2{
     color: rgb(162, 162, 162);
 }
 
+h3{
+    font-size: 0.9rem;
+    align-self: flex-end;
+    padding: 1rem;
+    color: rgb(162, 162, 162);
+}

@@ -106,5 +106,16 @@
   .hero__header{
     font-size: 2rem;
   }
+  .card{
+    width: 20rem;
+    height: 24rem;
+  }
  
+}
+@media screen and (max-width: 400px) {
+
+  .hero__header{
+    font-size: 1.5rem;
+  }
+
 }
