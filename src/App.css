@@ -90,6 +90,9 @@
   .section__margin {
     margin: 4rem;
   }
+  .cardGrid{
+    grid-template-columns: 1fr;
+  }
 }
 
 @media screen and (max-width: 550px) {
@@ -100,4 +103,8 @@
   .section__margin {
     margin: 4rem 2rem;
   }  
+  .hero__header{
+    font-size: 2rem;
+  }
+ 
 }
