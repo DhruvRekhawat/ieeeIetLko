@@ -1,0 +1,30 @@
+.boldblue{
+    font-weight: bolder;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    color: rgb(0, 147, 66);
+    grid-column: span 2;
+}
+.blogimg{
+    height: 15rem;
+    width: 20rem;
+    
+}
+.bloggrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 25rem;
+    gap:3rem;
+}
+.blogPage{
+    min-height: 200vh;
+}
+.red{
+    font-size: 1.5rem;
+    color: rgb(138, 0, 0);
+    grid-column: span 2;
+}
+.listStyle{
+    list-style:disc;
+    font-size: 1.5rem;
+}

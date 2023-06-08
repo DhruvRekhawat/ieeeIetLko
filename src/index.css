@@ -7,6 +7,8 @@ h1{
 }
 img{
     width: 100%;
+    object-fit: cover;
+    
 }
 button{
     width: 150px;
@@ -23,6 +25,7 @@ nav{
     width: 100%;
     display: flex;
     position: fixed;
+    top:0;
     justify-content: space-between;
     align-items: center;
     padding:  2rem;
@@ -67,4 +70,8 @@ h3{
     align-self: flex-end;
     padding: 1rem;
     color: rgb(162, 162, 162);
+}
+h4{
+    margin: 1rem;
+    display: block;
 }
