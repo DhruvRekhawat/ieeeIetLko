@@ -96,24 +96,24 @@ by exploring the grid cells.</p>
         <li className='listStyle'>A* Algorithm</li>
         <p>A* combines Dijkstra's
 algorithm with heuristics
-to improve eﬃciency. It
+to improve efficiency. It
 uses a cost function that
 considers both the path
 cost from the start point and an estimate of the remaining cost to the goal.
-A* is widely used for optimal pathﬁnding</p>
+A* is widely used for optimal pathfinding</p>
     
     <h5 className='red'>2. Potential Field Methods:</h5>
-    <p>Potential ﬁeld algorithms represent the
-environment as a ﬁeld where attractive
+    <p>Potential field algorithms represent the
+environment as a field where attractive
 forces guide the robot towards the goal,
 while repulsive forces repel it from
 obstacles. These methods include:</p>
-<li className='listStyle'>Artiﬁcial Potential Field (APF)</li>
+<li className='listStyle'>Artificial Potential Field (APF)</li>
 <p>APF
 assigns attractive potentials to the
 goal and repulsive potentials to
 obstacles. The robot moves along the
-gradient of the potential ﬁeld towards
+gradient of the potential field towards
 the goal while avoiding obstacles.</p>
 <li className='listStyle'>Elastic Band Method:</li>
 <p>This method
@@ -122,7 +122,7 @@ elastic band. The band is deformed to
 avoid obstacles, and the robot follows the deformed band as it moves</p>
     <h5 className='red'>3. Visibility Graph Methods</h5>
     <p>Visibility graph algorithms construct a graph by connecting visible points in the
-environment and ﬁnding the shortest path on this graph. These methods include:</p>
+environment and finding the shortest path on this graph. These methods include:</p>
     <li className='listStyle'>Voronoi Diagram:</li>
     <p>Voronoi diagrams divide
 the space into regions
@@ -136,26 +136,26 @@ visibility graph and
 incremental movements to navigate around obstacles. It moves along the
 obstacle boundary until a point on the visibility graph is reached.</p>
     <h5 className='red'>4. Sampling-Based Methods:</h5>
-    <p>Sampling-based algorithms randomly sample the conﬁguration space and build a
+    <p>Sampling-based algorithms randomly sample the configuration space and build a
 roadmap to search for feasible paths. These methods include:</p>
 <li className='listStyle'>Probabilistic Roadmap (PRM):</li>
 <p>PRM samples random points in the
 environment and connects them to build a graph. It then performs graph
-search algorithms to ﬁnd a path between the start and goal points</p>
+search algorithms to find a path between the start and goal points</p>
 <li className='listStyle'>Rapidly Exploring Random Tree (RRT):</li>
 <p>RRT incrementally builds a tree
 structure by extending the tree towards randomly sampled points. It rapidly
-explores the conﬁguration space and ﬁnds a feasible path</p>
+explores the configuration space and finds a feasible path</p>
 <p>These are just a few examples of the methods used in 2D path planning. Each
 method has its strengths and weaknesses, and the choice of algorithm depends on
-the speciﬁc requirements of the application, the complexity of the environment,
+the specific requirements of the application, the complexity of the environment,
 and the desired performance characteristics.</p>
     <h5 className='red'>5. Conclusions:</h5>
-    <p>During the session on 2D path planning, we explored the signiﬁcance of path
+    <p>During the session on 2D path planning, we explored the significance of path
 planning and discussed various methods. We highlighted grid-based approaches
-such as Dijkstra and A*, which divide the environment into a grid and ﬁnd the
+such as Dijkstra and A*, which divide the environment into a grid and find the
 optimal path based on distance or heuristics. Additionally, we covered potential
-ﬁeld methods like elastic bands and artiﬁcial potential ﬁelds that leverage
+field methods like elastic bands and artificial potential fields that leverage
 attractive and repulsive forces to guide the path. Visibility graph techniques,
 including Voronoi and tangent-based methods, utilize visibility relationships
 between points to determine feasible paths. Lastly, we delved into
