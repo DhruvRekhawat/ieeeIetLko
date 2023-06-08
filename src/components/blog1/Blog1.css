@@ -28,3 +28,22 @@
     list-style:disc;
     font-size: 1.5rem;
 }
+@media screen and (max-width: 700px){
+    .bloggrid{
+        grid-template-columns: 1fr;
+        
+    }
+    .boldblue{
+        font-size: 1.5rem;
+        grid-column: span 1;
+        margin: 2rem;
+    }
+    .red{
+        font-size: 1.2rem;
+        grid-column: span 1;
+    }
+    p{
+        font-size: 1.2rem;
+    }
+
+}

@@ -93,6 +93,16 @@
   .cardGrid{
     grid-template-columns: 1fr;
   }
+  .card{
+    width: 16rem;
+    min-height: 22rem;
+  }
+  .cardBtn{
+    height: 3rem;
+    width: 6rem;
+  }
+
+
 }
 
 @media screen and (max-width: 550px) {
@@ -106,10 +116,9 @@
   .hero__header{
     font-size: 2rem;
   }
-  .card{
-    width: 20rem;
-    height: 24rem;
-  }
+
+
+
  
 }
 @media screen and (max-width: 400px) {

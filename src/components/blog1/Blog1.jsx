@@ -4,10 +4,10 @@ import comic1 from './A-path-planning-comic.png'
 import { Link } from 'react-router-dom'
 const Blog1 = () => {
   return (
-     <div className="section__padding section__margin">
-         <div className='blogPage'> 
+
+    <div className='blogPage section__padding section__margin'> 
      <div className="titleCard">
-    <h1>Session 1: 2D Path
+    <h1 className='hero__header' style={{color:'black'}}>Session 1: 2D Path
     Planning, its importance
     and its application</h1>
     <p>Report Authored By:Antriksh Singh Rathore, Kshitij Gupta </p>
@@ -24,7 +24,7 @@ const Blog1 = () => {
     </h3>
     <h3>March 9, 2023</h3>
 </div>
-<div className="contentCard flex_center">
+
 <h4 className='boldblue'>Day 1</h4>
     <h4 className='boldblue'>What is 2D Path
     Planning ?</h4>
@@ -37,6 +37,7 @@ const Blog1 = () => {
         space is called path
         planning.</p>
         <div className="blogimg"><img src={comic1}></img></div>
+        <p></p>
         <h4 className='boldblue'>What will be
             the future of
             2D path
@@ -171,9 +172,9 @@ application</p>
 <li className='listStyle'><Link style={{color:"blue"}} to="https://www.youtube.com/watch?v=EFg3u_E6eHU">How Dijkstra's Algorithm Works- Youtube</Link></li><span>Video reference</span>
     </div>
     
-</div>  
+ 
 </div>
-     </div>
+  
    
 
   )
