@@ -14,7 +14,7 @@
     display: grid;
     width: 100%;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 25rem;
+    grid-template-rows: auto;
     gap:3rem;
 }
 .blogPage{
