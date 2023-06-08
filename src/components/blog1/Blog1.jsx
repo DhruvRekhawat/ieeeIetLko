@@ -5,9 +5,9 @@ import { Link } from 'react-router-dom'
 const Blog1 = () => {
   return (
 
-    <div className='blogPage section__padding section__margin'> 
+    <div className='blogPage section__padding '> 
      <div className="titleCard">
-    <h1 className='hero__header' style={{color:'black'}}>Session 1: 2D Path
+    <h1 className='hero__header hugemargin' style={{color:'black'}}>Session 1: 2D Path
     Planning, its importance
     and its application</h1>
     <p>Report Authored By:Antriksh Singh Rathore, Kshitij Gupta </p>
@@ -161,7 +161,7 @@ including Voronoi and tangent-based methods, utilize visibility relationships
 between points to determine feasible paths. Lastly, we delved into
 sampling-based methods such as Probabilistic Roadmaps (PRM) and
 Rapidly-Exploring Random Trees (RRT), which employ random sampling to
-generate a roadmap or tree structure for path planning. These methods oﬀer
+generate a roadmap or tree structure for path planning. These methods offer
 diverse approaches to tackling the challenges of 2D path planning.</p>
     <h4 className='boldblue'>What will we do in the next session?</h4>
     <p>In the next session, we will understand more about Dijkstra’s algorithm and its

@@ -22,7 +22,7 @@ button{
 }
 nav{
     
-    width: 100%;
+    width: 100dvw;
     display: flex;
     position: fixed;
     top:0;
@@ -50,7 +50,10 @@ p{
     color: rgb(0, 0, 0);
     font-size: 1.2rem;
     font-family: 'Raleway', sans-serif;
-    margin: 1rem;
+    
+    padding: 1rem;
+    white-space: pre-wrap;
+    word-wrap: break-word;
 }
 span{
     color: white;
