@@ -1,6 +1,6 @@
 import React from 'react'
 import './blog.css'
-import { Blog1 } from '../../components'
+
 import comic1 from './A-path-planning-comic.png'
 import { Link } from 'react-router-dom'
 const Blogs = () => {
