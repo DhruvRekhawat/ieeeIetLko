@@ -48,8 +48,9 @@
         font-size: 1.2rem;
         grid-column: span 1;
     }
-    p{
-        font-size: 1.2rem;
+    .blogimg{
+        height: 10rem;
+        width: 12rem;
     }
 
 }
