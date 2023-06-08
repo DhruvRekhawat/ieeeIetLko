@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 const Blogs = () => {
   return (
     <div className="section__padding section__margin">
-      <div className="cardGrid">
+      <div className="cardGrid flex_center">
       <div className="card hugemargin">
         <img src={comic1} style={{borderRadius:"1rem"}} alt="" srcset="" />
         <h3>March 9,2023</h3>
