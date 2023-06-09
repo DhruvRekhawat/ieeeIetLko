@@ -29,9 +29,30 @@
 .listStyle{
     list-style:disc;
     font-size: 1.5rem;
+    grid-column: span 2;
 }
 .hugemargin{
     margin-top: 6rem;
+}
+.ietLogoContainer{
+    height: 5rem;
+    width: 5rem;
+}
+.longcomic{
+    height: 2rem;
+    padding: 2rem;
+    
+}
+
+.img1{
+    grid-column: span 1;
+}
+.img2{
+    grid-column: span 1;
+}
+u{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 800;
 }
 
 @media screen and (max-width: 700px){
@@ -51,6 +72,16 @@
     .blogimg{
         height: 10rem;
         width: 12rem;
+    }
+    .listStyle{
+        grid-column: span 1;
+    }
+    .longcomic{
+        height: auto;
+        grid-row:span 3;
+    }
+    .span2{
+        grid-column: span 1;
     }
 
 }

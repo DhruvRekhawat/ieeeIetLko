@@ -1,24 +1,33 @@
 import React from 'react'
 import './Blog1.css'
 import comic1 from './A-path-planning-comic.png'
+import comic2 from './blog12.png'
+import ietLogo from './800px-Ietlogo.png'
+import blogImg1 from './8847863.fig.001.png'
+import blogImg2 from './8847863.fig.003.png'
+import blogImg3 from './8847863.fig.002.png'
+import blogImg4 from './8847863.fig.007a.png'
+import blogImg5 from './8847863.fig.006.png'
+import blogImg6 from './EFg3u_E6eHU-HQ.jpg'
 import { Link } from 'react-router-dom'
 const Blog1 = () => {
   return (
 
     <div className='blogPage section__padding '> 
+    <div className="ietLogoContainer hugemargin"><img src={ietLogo} alt="" srcset="" /></div>
      <div className="titleCard">
     <h1 className='hero__header hugemargin' style={{color:'black'}}>Session 1: 2D Path
     Planning, its importance
     and its application</h1>
-    <p>Report Authored By:Antriksh Singh Rathore, Kshitij Gupta </p>
-    <p>Faculty Coordinator: Dr. Neelam Srivastava Ma’am, ECE Dept. IET
+    <p><u>Report Authored By:</u>Antriksh Singh Rathore, Kshitij Gupta </p>
+    <p><u>Faculty Coordinator:</u> Dr. Neelam Srivastava Ma’am, ECE Dept. IET
     Lucknow</p>
-    <p>Mentees of the Session : Antriksh Singh Rathore, Kshitij Gupta,
+    <p><u>Mentees of the Session: </u>Antriksh Singh Rathore, Kshitij Gupta,
     Abhinav Kumar, Anindya Ranjan Samaddar, Ashish Singh, Divyansh
     Jaiswal, Gaurav Chaurasiya</p>
-    <p>Mentors of the Session: Aastha Chauhan, Anshuman Singh,
+    <p><u>Mentors of the Session:</u> Aastha Chauhan, Anshuman Singh,
     Saksham Gautam, Keshav Gupta</p>
-    <h3>Email : antrikshrs28@gmail.com
+    <h3><u>Email :</u> antrikshrs28@gmail.com
     ,
     kshitijgupta084@gmail.com
     </h3>
@@ -55,6 +64,7 @@ const Blog1 = () => {
         courses, which helps to avoid collisions,
         lessen damage to the robot or its
         surroundings, and improve overall safety.</p>
+        <div className="longcomic"><img src={comic2} alt="" srcset="" /></div>
         <h5 className='red'> 2. Autonomous Navigation:</h5>
         <p>For autonomous robots and vehicles to
         successfully explore challenging areas
@@ -83,10 +93,11 @@ const Blog1 = () => {
     for 2D path planning.
     Here are some commonly
     used approaches:</p>
+    <div className="img1"><img src={blogImg1} alt="" srcset="" /></div>
     <h5 className='red'>1. Grid-Based Methods:</h5>
     <p>Grid-based algorithms divide the environment into a grid of cells, where each cell
 represents a portion of the space. These methods include:</p>
-    
+    <div className="longcomic img2"><img src={blogImg2} alt="" srcset="" /></div>
         <li className='listStyle'>Dijkstra's Algorithm</li>
         <p>It is a graph search
 algorithm that computes
@@ -108,6 +119,7 @@ environment as a field where attractive
 forces guide the robot towards the goal,
 while repulsive forces repel it from
 obstacles. These methods include:</p>
+<div className="img1"><img src={blogImg3} alt="" srcset="" /></div>
 <li className='listStyle'>Artificial Potential Field (APF)</li>
 <p>APF
 assigns attractive potentials to the
@@ -123,6 +135,7 @@ avoid obstacles, and the robot follows the deformed band as it moves</p>
     <h5 className='red'>3. Visibility Graph Methods</h5>
     <p>Visibility graph algorithms construct a graph by connecting visible points in the
 environment and finding the shortest path on this graph. These methods include:</p>
+    <div className="img1"><img src={blogImg4} alt="" srcset="" /></div>
     <li className='listStyle'>Voronoi Diagram:</li>
     <p>Voronoi diagrams divide
 the space into regions
@@ -138,6 +151,7 @@ obstacle boundary until a point on the visibility graph is reached.</p>
     <h5 className='red'>4. Sampling-Based Methods:</h5>
     <p>Sampling-based algorithms randomly sample the configuration space and build a
 roadmap to search for feasible paths. These methods include:</p>
+    <div className="img1"><img src={blogImg5} alt="" srcset="" /></div>
 <li className='listStyle'>Probabilistic Roadmap (PRM):</li>
 <p>PRM samples random points in the
 environment and connects them to build a graph. It then performs graph
@@ -164,11 +178,12 @@ Rapidly-Exploring Random Trees (RRT), which employ random sampling to
 generate a roadmap or tree structure for path planning. These methods offer
 diverse approaches to tackling the challenges of 2D path planning.</p>
     <h4 className='boldblue'>What will we do in the next session?</h4>
+    <img src={blogImg6} alt="" />
     <p>In the next session, we will understand more about Dijkstra’s algorithm and its
 application</p>
 <p></p>
 <h3>REFERENCES</h3>
-<li className='listStyle'><Link style={{color:"blue"}} to="www.willowgarage.com">www.willowgarage.com , </Link><Link style={{color:"blue"}} to="www.thingsinsquares.com">www.thingsinsquares.com</Link></li><span>for reference images</span>
+<li className='listStyle'><Link style={{color:"blue"}} to="www.willowgarage.com">www.willowgarage.com , </Link><Link style={{color:"blue"}} to="https://www.thingsinsquares.com/">www.thingsinsquares.com</Link></li><span>for reference images</span>
 <li className='listStyle'><Link style={{color:"blue"}} to="https://www.youtube.com/watch?v=EFg3u_E6eHU">How Dijkstra's Algorithm Works- Youtube</Link></li><span>Video reference</span>
     </div>
     
