@@ -83,6 +83,15 @@
             transform: scale(1);
   }
 }
+@media screen and (max-width: 900px) {
+  .cardGrid{
+    grid-template-columns: 1fr 1fr;
+  }
+  
+ .card{
+  width: 12rem;
+ }
+}
 
 @media screen and (max-width: 700px) {
   .section__padding {

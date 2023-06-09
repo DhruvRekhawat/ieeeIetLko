@@ -1,8 +1,29 @@
 .footer{
     position: relative;
-    bottom: 0;
+    top:100%;
+    z-index: -1;
     height: 50vh;
     width: 100%;
     background-color: #222;
     padding: 6rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3rem;
+}
+.footerP{
+    font-size: 0.8rem;
+    color: rgb(181, 181, 181);
+}
+.footerimg{
+    max-width: 5rem;
+    margin: 1rem;
+}
+
+@media screen and (max-width: 900px) {
+    .footer{
+        height: auto;
+       grid-template-columns: 1fr;
+       
+    }
+    
 }

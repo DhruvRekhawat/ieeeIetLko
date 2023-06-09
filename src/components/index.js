@@ -5,4 +5,6 @@ export { default as Hero } from './hero/Hero'
 export { default as Navbar } from './navbar/Navbar'
 export { default as RecentBlogs } from './recentBlogs/RecentBlogs'
 export { default as Blog1 } from './blog1/Blog1'
+export { default as Blog2 } from './blog2/Blog2'
+export { default as Blog3 } from './blog3/Blog3'
 
