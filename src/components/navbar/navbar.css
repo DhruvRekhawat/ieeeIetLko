@@ -14,7 +14,7 @@
     display:block;
     position: fixed;
     left: 0;
-    z-index: 2;
+    z-index: 100;
     background: #222;
     height: 100vh;
     width: 100vw;
@@ -24,9 +24,10 @@
 .dropdownList{
     display: flex;
     flex-direction: column;
-    position: fixed;
+    position: relative;
     left:0;
     width: 100%;
+    z-index: 100;
 }
 .dropdownListElement{
     font-size: 2rem;
