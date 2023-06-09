@@ -13,3 +13,8 @@
     background: rgb(0,195,231);
     background: linear-gradient(144deg, rgba(0,195,231,1) 0%, rgba(0,254,255,1) 0%, rgba(0,190,250,1) 55%, rgba(0,116,245,1) 100%); 
 }
+@media screen and (max-width: 700px) {
+    .small{
+        font-size: 1.5rem;
+    }
+}

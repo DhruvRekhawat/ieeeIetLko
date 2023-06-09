@@ -4,16 +4,16 @@ import neelamMaam from '../../assets/neelammaam.jpg'
 const TeamMembers = () => {
   return (
     <> 
-    <div className="banner flex_center"><h1>Our Team</h1></div>
+    <div className="banner flex_center "><h1>Our Team</h1></div>
     <div className='section__padding section__margin'>
-    <h1>Faculty Members: </h1>
-    <div className="cardGrid">
+    <h1 className='small'>Faculty Members: </h1>
+    <div className="cardGrid flex_center">
       <div className="card">
         <img src={neelamMaam} alt="" />
         <p className='blogP'>Dr. Neelam Srivastava</p>
       </div>
     </div>
-    <h1>Core Members: </h1>
+    <h1 className='small'>Core Members: </h1>
     <div className="cardGrid flex_center">
       <div className="card">
         <img src={neelamMaam} alt="" />
